@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA166AD9-F8CE-4CDE-9BD3-4E147C1B7E5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpectrumBackground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F5CFD4976598B51B82FC23EEC8736FC01D2E383</key>
+		<string>github.com:golfguru1/SpectrumBackground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpectrumBackground.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F5CFD4976598B51B82FC23EEC8736FC01D2E383</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:golfguru1/SpectrumBackground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F5CFD4976598B51B82FC23EEC8736FC01D2E383</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F5CFD4976598B51B82FC23EEC8736FC01D2E383</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpectrumBackground</string>
+		</dict>
+	</array>
+</dict>
+</plist>

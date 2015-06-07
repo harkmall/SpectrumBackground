@@ -26,9 +26,9 @@
 - (IBAction)didPan:(UIPanGestureRecognizer *)gesture {
     CGFloat x = [gesture locationInView:self.view].x / self.view.frame.size.width;
     CGFloat y = [gesture locationInView:self.view].y / self.view.frame.size.height;
-    CGFloat z = x / y;
+    y = y + 0.5;
     NSLog(@"%f, %f", x, y);
-    self.view.backgroundColor = [UIColor colorWithRed:x green:y blue:z alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithHue:x saturation:y brightness:1 alpha:1];
     
 }
 
