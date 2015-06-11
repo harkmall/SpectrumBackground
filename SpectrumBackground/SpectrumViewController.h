@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SpectrumViewController.h
 //  SpectrumBackground
 //
 //  Created by Mark Hall on 2015-06-06.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SpectrumViewController : UIViewController
 
 
 @end

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A7D36D781B23DF2A007EA378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D36D771B23DF2A007EA378 /* main.m */; };
 		A7D36D7B1B23DF2A007EA378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D36D7A1B23DF2A007EA378 /* AppDelegate.m */; };
-		A7D36D7E1B23DF2A007EA378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D36D7D1B23DF2A007EA378 /* ViewController.m */; };
+		A7D36D7E1B23DF2A007EA378 /* SpectrumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D36D7D1B23DF2A007EA378 /* SpectrumViewController.m */; };
 		A7D36D811B23DF2A007EA378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D36D7F1B23DF2A007EA378 /* Main.storyboard */; };
 		A7D36D831B23DF2A007EA378 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D36D821B23DF2A007EA378 /* Images.xcassets */; };
 		A7D36D861B23DF2A007EA378 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D36D841B23DF2A007EA378 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		A7D36D771B23DF2A007EA378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7D36D791B23DF2A007EA378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7D36D7A1B23DF2A007EA378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7D36D7C1B23DF2A007EA378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7D36D7D1B23DF2A007EA378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7D36D7C1B23DF2A007EA378 /* SpectrumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumViewController.h; sourceTree = "<group>"; };
+		A7D36D7D1B23DF2A007EA378 /* SpectrumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumViewController.m; sourceTree = "<group>"; };
 		A7D36D801B23DF2A007EA378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7D36D821B23DF2A007EA378 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7D36D851B23DF2A007EA378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				A7D36D791B23DF2A007EA378 /* AppDelegate.h */,
 				A7D36D7A1B23DF2A007EA378 /* AppDelegate.m */,
-				A7D36D7C1B23DF2A007EA378 /* ViewController.h */,
-				A7D36D7D1B23DF2A007EA378 /* ViewController.m */,
+				A7D36D7C1B23DF2A007EA378 /* SpectrumViewController.h */,
+				A7D36D7D1B23DF2A007EA378 /* SpectrumViewController.m */,
 				A7D36D7F1B23DF2A007EA378 /* Main.storyboard */,
 				A7D36D821B23DF2A007EA378 /* Images.xcassets */,
 				A7D36D841B23DF2A007EA378 /* LaunchScreen.xib */,
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D36D7E1B23DF2A007EA378 /* ViewController.m in Sources */,
+				A7D36D7E1B23DF2A007EA378 /* SpectrumViewController.m in Sources */,
 				A7D36D7B1B23DF2A007EA378 /* AppDelegate.m in Sources */,
 				A7D36D781B23DF2A007EA378 /* main.m in Sources */,
 			);
@@ -350,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpectrumBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpectrumBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,6 +421,7 @@
 				A7D36D971B23DF2A007EA378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7D36D981B23DF2A007EA378 /* Build configuration list for PBXNativeTarget "SpectrumBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				A7D36D9A1B23DF2A007EA378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
